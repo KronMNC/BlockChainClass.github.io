@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
-//Define a schema
+//Defines the company schema before setting email and password
 const Schema = mongoose.Schema;
 const CompanySchema = new Schema({
     email: {                            //mail 
