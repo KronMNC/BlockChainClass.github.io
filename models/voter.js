@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
-//Define a schema
+//Defines the schema before defining voter schema with email password and address
 const Schema = mongoose.Schema;
 const VoterSchema = new Schema ({
     email: {
